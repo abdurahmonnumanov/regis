@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: gray;
+}
+
+.main__menu{
+    display: inline-block;
+    margin:  0 auto;
+    border: 3px solid black;
+    margin-left: 45%;
+    background: rgb(181, 181, 181);
+    margin-top: 5%;
+}
+
+.main__menu-title{
+    color: rgb(16, 159, 30);
+    padding: 20px ;
+}
+
+.main__menu-name{
+    text-decoration: none;
+    padding: 7px;
+    margin-left: 3px;
+}
+
+.title{
+    font-size: 20px !important;
+}
+
+.main__menu-kim{
+    color: green;
+    padding-left: 10px;
+}
+
+.main__menu-erkak{
+    color: green;
+}
+
+.main__menu-ayol{
+    color: green;
+}
+
+.main__menu-comp{
+    color: green;
+}
+
+.main__menu-btn{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background: green;
+    color: rgb(6, 222, 6);
+    transition: 500ms;
+}
+
+.main__menu-btn:hover{
+    background: gray;
+    color: white;
+}
